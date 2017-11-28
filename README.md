@@ -1,6 +1,6 @@
 # Installing PNDA on OpenStack
 
-##1 Install the OpenStack using the devstack
+## 1 Install the OpenStack using the devstack
 
 Use a clean installation from Ubuntu Server 16.04. 
 
