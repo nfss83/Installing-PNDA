@@ -16,9 +16,9 @@ Use a clean installation from Ubuntu Server 16.04.
 
 1.3 To install the OpenStack-Devstack, create a local.conf file and run the following commands.
 
-`$ cd devstack
+`$ cd devstack`
 
-$ nano local.conf
+`$ nano local.conf`
 
 [[local|localrc]]
 
@@ -116,9 +116,9 @@ This process leads 1 or more hours, depends on your machine.
 
 1.6 Test the access to OpenStack with some commands:
 
-`$ glance image-list
+`$ glance image-list`
 
-$ openstack flavor list`
+`$ openstack flavor list`
 
 If not show none errors, so you installation is correct.
 
