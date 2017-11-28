@@ -1,20 +1,20 @@
 # Installing PNDA on OpenStack
 
-1. Install the OpenStack using the devstack
+##1 Install the OpenStack using the devstack
 
-   Use a clean installation from Ubuntu Server 16.04. 
+Use a clean installation from Ubuntu Server 16.04. 
 
-   1.1 Update and Upgrage the packages.
+1.1 Update and Upgrage the packages.
 
-   $ sudo apt update && apt -y upgrade
+$ sudo apt update && apt -y upgrade
 
-   1.2 Install the git and clone the OpenStack
+1.2 Install the git and clone the OpenStack
 
-   $ sudo apt install git
+$ sudo apt install git
 
 $ git clone -b master https://github.com/openstack-dev/devstack.git
 
-To install the OpenStack-Devstack, create a local.conf file and run the following commands.
+1.3 To install the OpenStack-Devstack, create a local.conf file and run the following commands.
 
 $ cd devstack
 
