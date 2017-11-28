@@ -21,7 +21,9 @@ $ nano local.conf
 Insert the contents:
 
 [[local|localrc]]
+
 RECLONE=false
+
 GIT_BASE=https://git.openstack.org
 
 LOGFILE=$DATA_DIR/devstack.log
