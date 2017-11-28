@@ -8,13 +8,13 @@ Use a clean installation from Ubuntu Server 16.04.
 
 `$ sudo apt update && apt -y upgrade`
 
-1.2 Install the git and clone the OpenStack
+### 1.2 Install the git and clone the OpenStack
 
 `$ sudo apt install git`
 
 `$ git clone -b master https://github.com/openstack-dev/devstack.git`
 
-1.3 To install the OpenStack-Devstack, create a local.conf file and run the following commands.
+### 1.3 To install the OpenStack-Devstack, create a local.conf file and run the following commands.
 
 `$ cd devstack`
 
@@ -100,21 +100,21 @@ SWIFT_HASH=66a3d6b56c1f479c8b4e70ab5c2000f5
 
 SWIFT_REPLICAS=1
 
-SWIFT_DATA_DIR=/opt/stack/data/swift`
+SWIFT_DATA_DIR=/opt/stack/data/swift
 
 ------------------------------------------------------------
 
-1.4 Run the installation
+### 1.4 Run the installation
 
 `$ ./stack.sh`
 
 This process leads 1 or more hours, depends on your machine.
 
-1.5 After, open your browser `http://<ip Openstack>/horizon`, download the OpenStack RC File (v3), put it in your OpenStack Server, and run the environment variables.
+### 1.5 After, open your browser `http://<ip Openstack>/horizon`, download the OpenStack RC File (v3), put it in your OpenStack Server, and run the environment variables.
 
 `$ source admin-openrc`
 
-1.6 Test the access to OpenStack with some commands:
+### 1.6 Test the access to OpenStack with some commands:
 
 `$ glance image-list`
 
@@ -122,10 +122,10 @@ This process leads 1 or more hours, depends on your machine.
 
 If not show none errors, so you installation is correct.
 
-Download Image using glance
+### Download Image using glance
 
 `$ glance image-download --file $FILENAME $UUID`
 
-Install GUI on Ubuntu Server
+### Install GUI on Ubuntu Server
 
 `$ sudo apt-get install --no-install-recommends ubuntu-desktop`
