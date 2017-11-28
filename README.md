@@ -10,9 +10,9 @@ Use a clean installation from Ubuntu Server 16.04.
 
 1.2 Install the git and clone the OpenStack
 
-`$ sudo apt install git
+`$ sudo apt install git`
 
-$ git clone -b master https://github.com/openstack-dev/devstack.git`
+`$ git clone -b master https://github.com/openstack-dev/devstack.git`
 
 1.3 To install the OpenStack-Devstack, create a local.conf file and run the following commands.
 
