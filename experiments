@@ -1,4 +1,11 @@
 # Examples of some applications using Pnda
 
+Spark Streaming:
+ is responsable for processing of live data streams. It can be processed using 
+complex algorithms and  pushed out to filesystems, databases, and live dashboards.
+
+Impala:
+ make query into databases and filesystems.
+
 ## Upload a package to the repository
 `$ curl http://192.168.10.10:8888/packages/my-package-1.0.0.tar.gz --upload-file my-package-1.0.0.tar.gz`
