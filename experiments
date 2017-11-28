@@ -1,0 +1,4 @@
+# Examples of some applications using Pnda
+
+## Upload a package to the repository
+`$ curl http://192.168.10.10:8888/packages/my-package-1.0.0.tar.gz --upload-file my-package-1.0.0.tar.gz`
