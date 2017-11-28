@@ -103,3 +103,24 @@ SWIFT_REPLICAS=1
 SWIFT_DATA_DIR=/opt/stack/data/swift
 
 ------------------------------------------------------------
+
+1.4 Run the installation
+
+$ ./stack.sh
+
+This process leads 1 or more hours, depends on your machine.
+
+1.5 After, open your browser `http://<ip Openstack>/horizon`, download the OpenStack RC File (v3), put it in your OpenStack Server, and run the environment variables.
+
+$ source admin-openrc
+
+1.6 Test the access to OpenStack with some commands:
+
+$  glance image-list
+
+$ openstack flavor list
+
+If not show none errors, so you installation is correct.
+
+
+
