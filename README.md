@@ -122,6 +122,9 @@ This process leads 1 or more hours, depends on your machine.
 
 If not show none errors, so you installation is correct.
 
+Download Image using glance
+
+`$ glance image-download --file $FILENAME $UUID`
 
 Install GUI on Ubuntu Server
 
