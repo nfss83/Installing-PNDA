@@ -2,7 +2,7 @@
 
 ## 1 Install the OpenStack using the devstack
 
-Use a clean installation from Ubuntu Server 16.04. 
+Use a clean installation from Ubuntu Server 16.04. DevStack is a series of extensible scripts used to quickly bring up a complete OpenStack environment based on the latest versions of everything from git master.
 
 ### 1.1 Update and Upgrage the packages.
 
