@@ -108,7 +108,7 @@ SWIFT_DATA_DIR=/opt/stack/data/swift
 
 `$ ./stack.sh`
 
-This process leads 1 or more hours, depends on your machine.
+This process takes 1 or more hours, depends on your machine and the speed of your internet connection.
 
 ### 1.5 After, open your browser `http://<ip Openstack>/horizon`, download the OpenStack RC File (v3), put it in your OpenStack Server, and run the environment variables.
 
