@@ -20,6 +20,7 @@ Use a clean installation from Ubuntu Server 16.04. DevStack is a series of exten
 
 `$ nano local.conf`
 
+```
 [[local|localrc]]
 
 RECLONE=false
@@ -103,6 +104,7 @@ SWIFT_REPLICAS=1
 SWIFT_DATA_DIR=/opt/stack/data/swift
 
 ------------------------------------------------------------
+```
 
 ### 1.4 Run the installation
 
